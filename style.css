@@ -19,7 +19,7 @@ h2 {
     padding-bottom: 2rem;
 }
 
-p {
+button {
     display: inline;
     border: 0.5rem outset pink;
     outline: 0.5rem solid khaki;
