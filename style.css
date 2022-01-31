@@ -1,38 +1,61 @@
-body {
-    text-align: center;
-    background-color: powderblue;
+* {
+    font-family: Helvetica;
+    font-weight: 400;
 }
 
-h1 {
+body {
+    background-color: skyblue;
+}
+
+#titulo {
+    text-align: center;
     border: 0.5rem outset pink;
     outline: 0.5rem solid khaki;
     box-shadow: 0 0 0 2rem skyblue;
     border-radius: 12px;
-    font: bold 3rem sans-serif;
-    margin: 3rem;
-    padding: 1rem;
+    margin: 10rem;
+    padding: 0.5rem;
     outline-offset: 0.5rem;;
 }
 
-h2 {
-    font-size: 2.5rem;
-    padding-bottom: 2rem;
+#placar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-button {
-    display: inline;
-    border: 0.5rem outset pink;
-    outline: 0.5rem solid khaki;
-    box-shadow: 0 0 0 1.5rem skyblue;
-    border-radius: 12px;
-    font: bold 1rem sans-serif;
-    margin: 4rem;
-    padding: 1rem;
-    font-size: 1.9rem;
-    outline-offset: 0.5rem;
+#jogador, #computador {
+    position: relative;
+    flex-grow: 1;
+    border-radius: 5px;
+    width: 200px;
+    padding: 20px;
+    color: #fff;
 }
 
-p:hoveR {
-    color: pink;
-    background-color: skyblue;
+#jogador {
+    background-color: #ff7675;
+}
+
+#computador {
+    background-color: #74b9ff;
+}
+
+ul#jogador-escolha, ul#computador-escolha {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul#jogador-escolha li, ul#computador-escolha li  {
+    display: inline;    
+}
+
+ul#jogador-escolha li a, ul#computador-escolha li a {
+    opacity: .2;
+}
+
+ul#jogador-escolha li a img, ul#computador-escolha li a img {
+    max-width: 80px;    
 }
