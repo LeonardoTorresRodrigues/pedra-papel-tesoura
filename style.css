@@ -41,6 +41,35 @@ body {
     background-color: #74b9ff;
 }
 
+#versus {
+    width: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#jogador-nome, #computador-nome {
+    margin: 0;
+    padding: 0;
+}
+
+#jogador-nome {
+    text-align: left;
+}
+
+#computador-nome {
+    text-align: right;
+}
+
+#jogador-pontos, #computador-pontos {
+    position: absolute;
+    top: 8px;
+    font-size: 32px;
+}
+
+#jogador-pontos {
+    right: 20px;
+}
+
 ul#jogador-escolha, ul#computador-escolha {
     list-style: none;
     margin: 0;
@@ -54,6 +83,10 @@ ul#jogador-escolha li, ul#computador-escolha li  {
 
 ul#jogador-escolha li a, ul#computador-escolha li a {
     opacity: .2;
+}
+
+ul#jogador-escolha li a:hover {
+    opacity: 1;   
 }
 
 ul#jogador-escolha li a img, ul#computador-escolha li a img {
