@@ -4,14 +4,19 @@
 }
 
 body {
-    background-color: skyblue;
+    background-color: #60a3bc;
+}
+
+h1 {
+    color: khaki;
 }
 
 #titulo {
     text-align: center;
+    background-color: #4a69bd;
     border: 0.5rem outset pink;
     outline: 0.5rem solid khaki;
-    box-shadow: 0 0 0 2rem skyblue;
+    box-shadow: 0 0 0 2rem #4a69bd;
     border-radius: 12px;
     margin: 10rem;
     padding: 0.5rem;
@@ -30,15 +35,16 @@ body {
     border-radius: 5px;
     width: 200px;
     padding: 20px;
-    color: #fff;
+    color: khaki;
+    border: 0.5rem outset pink;
 }
 
 #jogador {
-    background-color: #ff7675;
+    background-color: #1e3799;
 }
 
 #computador {
-    background-color: #74b9ff;
+    background-color: #e55039;
 }
 
 #versus {
@@ -85,10 +91,20 @@ ul#jogador-escolha li a, ul#computador-escolha li a {
     opacity: .2;
 }
 
-ul#jogador-escolha li a:hover {
+ul#jogador-escolha li a:hover, ul#jogador-escolha li a.selecionado, ul#computador-escolha li a.selecionado {
     opacity: 1;   
 }
 
 ul#jogador-escolha li a img, ul#computador-escolha li a img {
     max-width: 80px;    
+}
+
+#mensagens {
+    background-color: #b2bec3;
+    text-align: center;
+    font-size: 32px;
+    border-radius: 5px;
+    margin: 40px 0;
+    padding: 20px;
+    border: 0.5rem outset pink;
 }
