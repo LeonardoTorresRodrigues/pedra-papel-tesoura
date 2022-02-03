@@ -108,3 +108,34 @@ ul#jogador-escolha li a img, ul#computador-escolha li a img {
     padding: 20px;
     border: 0.5rem outset pink;
 }
+
+@media screen and (max-width: 480px) {
+    #titulo {
+        margin: 3rem 2rem 5rem;
+    }
+
+    #jogador, #computador {
+        position: relative;
+        flex-grow: 1;
+        border-radius: 5px;
+        width: 200px;
+        padding-right: 0;
+        padding-left: 15px;
+        color: khaki;
+        border: 0.5rem outset pink;
+    }
+
+   
+    #jogador-pontos {
+        position: relative;
+        left: 97px;
+        right: 0;
+    }
+
+    #computador-pontos {
+        position: relative;
+        right: 10px;
+    }
+
+    
+}
